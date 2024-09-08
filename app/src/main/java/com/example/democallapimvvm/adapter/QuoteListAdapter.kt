@@ -50,6 +50,7 @@ class QuoteListAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
         }
     }
 
+
     override fun getItemCount(): Int {
         return quoteList?.size ?: 0
     }
